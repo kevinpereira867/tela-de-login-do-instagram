@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login container">
-        <img src="logotipo-da-aplicacao-instagram_23-2151544088.avif" alt="logo do Instagram" class="logo">
-        <form class="login-form">
-            <input type="text" name="username" placeholder="Telefone,nome de usuario ou email" required>
-            <input type="password" name="password" placeholder="Senha" required>
-            <button type="submit">Login</button>
-            <div class="dividider"></div>
-            <div class="ou"></div>
-            <a href="#">Esqueceu a senha?</a>
-            </form>  
-    </div>
+
+  <div class="login-container">
+    <img src="image.png" alt="Logo do Instagram" class="logo">
+
+    <form class="login-form">
+      <input type="text" placeholder="Telefone, nome de usuário ou email" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+
+      <div class="divider">
+        <span class="ou">OU</span>
+      </div>
+
+      <button type="button" class="facebook-login">
+        <img src="facebook-logo-facebook-icon-transparent-free-png.webp" alt="Facebook" class="facebook-icon">
+        Entrar com o Facebook
+      </button>
+
+      <a href="#">Esqueceu a senha?</a>
+
+      <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+    </form>
+  </div>
+
 </body>
 </html>
